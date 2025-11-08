@@ -85,10 +85,3 @@ B.Tech Artificial Intelligence and Machine Learning
 R.M.D. Engineering College
 
 ⭐ Don’t forget to star the repo if you find it useful!
-
-
-
-
-
-
-
