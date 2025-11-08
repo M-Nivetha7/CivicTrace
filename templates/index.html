@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Image Presence Detector</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+    form {
+      background: rgba(255,255,255,0.1);
+      padding: 30px;
+      border-radius: 10px;
+      display: inline-block;
+    }
+    input, button {
+      margin: 10px;
+      padding: 10px;
+    }
+    button {
+      background-color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🖼️ Image Presence Detection</h1>
+  <p>Upload your database (ZIP) and an image to check if it's present in it.</p>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <div>
+      <label>Upload Database (ZIP): </label>
+      <input type="file" name="database" accept=".zip" required>
+    </div>
+    <div>
+      <label>Upload Image: </label>
+      <input type="file" name="image" accept="image/*" required>
+    </div>
+    <button type="submit">Check Now</button>
+  </form>
+</body>
+</html>
