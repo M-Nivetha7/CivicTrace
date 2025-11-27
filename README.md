@@ -72,13 +72,7 @@ Image_detection/
 ├── requirements.txt
 └── README.md
 🧩 Requirements File
-If you haven’t created one yet, add this to requirements.txt:
-
-txt
-Copy code
-Flask
-opencv-python
-numpy
+```
 👩‍💻 Developed By
 M. Nivetha
 B.Tech Artificial Intelligence and Machine Learning
