@@ -55,8 +55,10 @@ Copy code
 http://127.0.0.1:5001/
 📸 Preview
 Upload a database ZIP file and a test image.
+```
 The app checks if the image is present in the database and displays the result.
 
+```
 🧾 Example Folder Structure
 cpp
 Copy code
